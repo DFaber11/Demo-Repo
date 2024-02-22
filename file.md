@@ -11,3 +11,12 @@ git config --global user.name "Your Name"
 
 # make sure that the default branch for any repo is main instead of master
 git config --global unit.defaultbranch main
+
+# one more change to show new branch path
+
+# to change branches
+git checkout "branch name"
+
+# merge branches to main
+    # ensure we are on the main branch
+git merge branchname that we want to merge on to main
